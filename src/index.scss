@@ -1,0 +1,149 @@
+@import "~@coreui/coreui/scss/coreui.scss";
+@import "react-confirm-alert/src/react-confirm-alert.css";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import "react-toastify/dist/ReactToastify.css";
+
+$primary: #0080ff;
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.c-sidebar {
+  color: #fff;
+  background: #3c51db;
+}
+
+.c-sidebar .c-sidebar-brand {
+  color: #fff;
+  background: $primary;
+}
+
+.c-sidebar .c-sidebar-minimizer {
+  background-color: $primary;
+}
+
+.c-sidebar .c-sidebar-nav-link:hover,
+.c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+  color: #fff;
+  background: $primary;
+}
+
+.c-active {
+  background: #6872b3;
+}
+
+.required-class:after {
+  content: "*";
+  color: red;
+  margin-left: 3px;
+  font-size: 14px;
+}
+
+.custom-dd-input {
+  border: none;
+}
+
+.custom-dd-input::after {
+  right: 3%;
+  top: 15px;
+  position: absolute;
+}
+
+.pac-container {
+  z-index: 10000 !important;
+}
+.react-confirm-alert-body {
+  color: #3c51db;
+}
+
+.react-confirm-alert-button-group > button {
+  background: #3c51db;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.card-header-title-font {
+  font-size: 1.4rem;
+}
+
+.option-box .card-body {
+  padding: 10px 5px !important;
+}
+
+.option-box .card-body .small {
+  padding: 20px 0px !important;
+}
+
+.option-disabled {
+  cursor: not-allowed;
+  text-decoration: line-through;
+  background-color: #383edb;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent,
+    transparent 5px,
+    #fff 5px,
+    #fff 10px
+  );
+}
+
+.border-bottom-dark {
+  border-bottom: 1px dashed #000;
+}
+
+@media print {
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    float: left;
+  }
+
+  .col-md-1 {
+    width: 8%;
+  }
+  .col-md-2 {
+    width: 16%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33%;
+  }
+  .col-md-5 {
+    width: 42%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58%;
+  }
+  .col-md-8 {
+    width: 66%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83%;
+  }
+  .col-md-11 {
+    width: 92%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}

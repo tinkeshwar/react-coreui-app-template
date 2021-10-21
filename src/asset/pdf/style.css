@@ -1,0 +1,11 @@
+.page-number-action-box{
+    display: none;
+}
+
+.page-number-box:hover .page-number-action-box {
+    display: block;
+}
+
+.pdf-box-pagination ul {
+    margin-bottom: 0;
+}

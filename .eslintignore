@@ -1,0 +1,6 @@
+/build
+/public
+/node_modules
+/src/serviceWorker.ts
+/src/App.test.tsx
+src/service/HttpStatusCode.ts
